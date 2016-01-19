@@ -1,0 +1,143 @@
+
+body {
+	background-color: #666;
+	margin: 0px;
+	height: 100%;
+}
+
+
+#header {
+
+	background-color: #333;
+	position: absolute;
+	top: 0px;
+	width:100%;
+	height:60px;
+	padding: 0px 0px;
+	border-radius: 0px 0px 20px 20px;
+	overflow: hidden;
+	
+}
+
+#footer {
+	height: 60px;
+	width: 100%;
+	background-color: #333;
+	margin: 0;
+	position: fixed;
+	border-radius: 20px 20px 0px 0px;
+	text-align: center;
+	bottom: 0;
+	
+
+}
+#footerLinks {
+	display: inline-block;
+	overflow: hidden;
+	list-style-type: none;
+	color: white;
+	margin-left: -55px;
+}
+#footerLinks li {
+	
+	display: inline-block;
+	padding-top: 4px;
+
+}
+
+#footerLinks a {
+	color: white;
+	padding-left: 25px;
+}
+
+
+ul#headerLinks {
+	list-style-type: none;
+	margin: 0px 0px 0px 60px;
+	padding: 0px 0px;
+	height: 100%;
+
+}
+
+ul#headerLinks li {
+	float:left;
+	font-weight: bold;
+	font-size: 2em;
+	height: 50px;
+	padding: 10px 20px 0px 20px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	display: inline-block;
+
+	
+
+}
+
+ul#headerName {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	margin-right: 60px;
+
+}
+
+div#header a {
+	text-decoration: none;
+
+}
+
+li.navLinks {
+	height: 100%;
+	
+	
+
+
+}
+
+.navLinksHover {
+
+	height: 100%;
+	background-color: black;
+	
+	
+}
+
+#about {
+	padding-left: -10px;
+}
+
+div#header a {
+	text-decoration: none;
+	color: white;
+}
+
+.navHoverName {
+	background-color: black;
+}
+
+div#homePageContent {
+	margin: 150px 25% 10% 25%;
+
+}
+
+#aboutMe {
+	display: none;
+
+}
+
+#projectsPage {
+	display: none;
+}
+#homePageContent h1 {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+
+}
+#homePage img {
+
+	display:block;
+	margin: auto;
+	border: .25em solid white;
+}
+
